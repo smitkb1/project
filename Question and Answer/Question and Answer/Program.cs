@@ -10,6 +10,7 @@ namespace Question_and_Answer
     {
         static void Main()
         {
+            Console.WriteLine("Hi");
         }
     }
 }
