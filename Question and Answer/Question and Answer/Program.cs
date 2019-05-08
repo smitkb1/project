@@ -10,10 +10,15 @@ namespace Question_and_Answer
     {
         static void Main()
         {
-            Console.WriteLine("Hi");
+            //Keegan's Questions
+            string temp;
+            Console.WriteLine("Do you watch Game of Thrones?");
             Console.ReadLine();
-            Console.WriteLine("Hello");
+            Console.WriteLine("Nerd?");
             Console.ReadLine();
+            Console.WriteLine("Are you a gamer?");
+            Console.ReadLine();
+
         }
     }
 }
