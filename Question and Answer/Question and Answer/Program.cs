@@ -20,7 +20,7 @@ namespace Question_and_Answer
             Console.WriteLine("Who's your favourite Team?");
             fav = Console.ReadLine();
 
-             
+
 
             // Cody's Question
             Console.WriteLine("Do you want a spoiler?");
@@ -52,6 +52,6 @@ namespace Question_and_Answer
 
 
 
-
+        }
     }
 }
