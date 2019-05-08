@@ -10,7 +10,12 @@ namespace Question_and_Answer
     {
         static void Main()
         {
-            Console.WriteLine("Hi");
+            // Cody's Question
+            Console.WriteLine("Do you want a spoiler?");
+            Console.ReadLine();
+            Console.WriteLine("Did you know Iron Man dies?");
+            Console.ReadLine();
+            Console.WriteLine("Or does he?");
         }
     }
 }
