@@ -20,7 +20,7 @@ namespace Question_and_Answer
             Console.WriteLine("Who's your favourite Team?");
             fav = Console.ReadLine();
 
-             
+
 
             // Cody's Question
             Console.WriteLine("Do you want a spoiler?");
@@ -30,12 +30,23 @@ namespace Question_and_Answer
             Console.WriteLine("Or does he?");
 
             //Keegan's Questions
-            string temp;
-            Console.WriteLine("Do you watch Game of Thrones?");
+            string musicFan, genre;
+            Console.WriteLine("Are you a fan of music?");
+            musicFan = Console.ReadLine();
+            if (musicFan == "Yes")
+            {
+                Console.WriteLine("What's your favourite genre of music?");
+                genre = Console.ReadLine();
+                switch (genre)
+                {
+                    case rock:
+
+                }
+
+            }
+            Console.WriteLine();
             Console.ReadLine();
-            Console.WriteLine("Nerd?");
-            Console.ReadLine();
-            Console.WriteLine("Are you a gamer?");
+            Console.WriteLine("");
             Console.ReadLine();
 
 
@@ -51,7 +62,7 @@ namespace Question_and_Answer
 
 
 
-
+        }
 
     }
 }
