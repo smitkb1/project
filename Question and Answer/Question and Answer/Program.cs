@@ -10,7 +10,7 @@ namespace Question_and_Answer
     {
         static void Main()
         {
-<<<<<<< HEAD
+
             // Bens Questions
             string sports, like, fav;
             Console.WriteLine("Do you like Sport");
@@ -21,7 +21,14 @@ namespace Question_and_Answer
             fav = Console.ReadLine();
 
              
-=======
+
+            // Cody's Question
+            Console.WriteLine("Do you want a spoiler?");
+            Console.ReadLine();
+            Console.WriteLine("Did you know Iron Man dies?");
+            Console.ReadLine();
+            Console.WriteLine("Or does he?");
+
             //Keegan's Questions
             string temp;
             Console.WriteLine("Do you watch Game of Thrones?");
@@ -31,7 +38,14 @@ namespace Question_and_Answer
             Console.WriteLine("Are you a gamer?");
             Console.ReadLine();
 
->>>>>>> e34b0074e803f996ddc5195312729f8d2e888a04
-        }
+
+
+
+
+
+
+
+
+
     }
 }
