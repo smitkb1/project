@@ -39,6 +39,12 @@ namespace Question_and_Answer
             Console.ReadLine();
 
 
+            //Anthony's Questions
+            Console.WriteLine("Kanye for president? Yes no?");
+            Console.ReadLine();
+
+
+
 
 
 
