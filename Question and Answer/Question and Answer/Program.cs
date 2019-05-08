@@ -27,13 +27,27 @@ namespace Question_and_Answer
             like = Console.ReadLine();
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> e9c942b4572284eb297e395aefbbaeb3427efbbc
 
             // Cody's Question
-            Console.WriteLine("Do you want a spoiler?");
-            Console.ReadLine();
-            Console.WriteLine("Did you know Iron Man dies?");
-            Console.ReadLine();
-            Console.WriteLine("Or does he?");
+            Console.WriteLine("Do you like movies?");
+            movies = Console.ReadLine();
+            Console.WriteLine("What is your favourite movie of 2019?");
+            movieFavourite = Console.ReadLine();
+            Console.WriteLine("What is your favourite movie genre? (yes/no)");
+            movieGenre = Console.ReadLine();
+            if (movies = "no")
+            {
+                Console.WriteLine("Maybe the next section will be of more interest.");
+            }
+            else
+            {
+                Console.WriteLine("That's great!")
+            }
+
 
             //Keegan's Questions
             string temp;
