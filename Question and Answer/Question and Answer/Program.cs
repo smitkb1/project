@@ -11,14 +11,20 @@ namespace Question_and_Answer
         static void Main()
         {
 
-            // Bens Questions
+            { // Bens Questions
             string sports, like, fav;
             Console.WriteLine("Do you like Sport");
             sports = Console.ReadLine();
-            Console.WriteLine("What kind of Sport do you like?");
-            like = Console.ReadLine();
+            
             Console.WriteLine("Who's your favourite Team?");
             fav = Console.ReadLine();
+            if (sports = "No")
+                {
+                    Console.WriteLine("Sorry you are not wanted in this section");
+                }
+            else  (sports = "Yes")
+            Console.WriteLine("What kind of Sport do you like?");
+            like = Console.ReadLine();
 
 
 
