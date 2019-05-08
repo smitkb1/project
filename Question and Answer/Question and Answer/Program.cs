@@ -10,10 +10,16 @@ namespace Question_and_Answer
     {
         static void Main()
         {
-            Console.WriteLine("Hi");
-            Console.ReadLine();
-            Console.WriteLine("Hello");
-            Console.ReadLine();
+            // Bens Questions
+            string sports, like, fav;
+            Console.WriteLine("Do you like Sport");
+            sports = Console.ReadLine();
+            Console.WriteLine("What kind of Sport do you like?");
+            like = Console.ReadLine();
+            Console.WriteLine("Who's your favourite Team?");
+            fav = Console.ReadLine();
+
+             
         }
     }
 }
