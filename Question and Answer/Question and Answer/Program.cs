@@ -11,16 +11,26 @@ namespace Question_and_Answer
         static void Main()
         {
 
-            // Bens Questions
+            { // Bens Questions
             string sports, like, fav;
             Console.WriteLine("Do you like Sport");
             sports = Console.ReadLine();
-            Console.WriteLine("What kind of Sport do you like?");
-            like = Console.ReadLine();
+            
             Console.WriteLine("Who's your favourite Team?");
             fav = Console.ReadLine();
+            if (sports = "No")
+                {
+                    Console.WriteLine("Sorry you are not wanted in this section");
+                }
+            else  (sports = "Yes")
+            Console.WriteLine("What kind of Sport do you like?");
+            like = Console.ReadLine();
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> e9c942b4572284eb297e395aefbbaeb3427efbbc
 
             // Cody's Question
             Console.WriteLine("Do you like movies?");
@@ -49,6 +59,9 @@ namespace Question_and_Answer
             Console.ReadLine();
 
 
+            //Anthony's Questions
+            Console.WriteLine("Kanye for president? Yes no?");
+            Console.ReadLine();
 
 
 
@@ -57,5 +70,8 @@ namespace Question_and_Answer
 
 
 
+
+
+        }
     }
 }
