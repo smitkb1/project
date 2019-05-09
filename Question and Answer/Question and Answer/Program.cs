@@ -27,26 +27,64 @@ namespace Question_and_Answer
             like = Console.ReadLine();
 
 
-<<<<<<< HEAD
 
+
+<<<<<<< HEAD
 =======
 >>>>>>> e9c942b4572284eb297e395aefbbaeb3427efbbc
+                // Cody's Question
+                private static void movies()
 
-            // Cody's Question
-            Console.WriteLine("Do you like movies?");
-            movies = Console.ReadLine();
-            Console.WriteLine("What is your favourite movie of 2019?");
-            movieFavourite = Console.ReadLine();
-            Console.WriteLine("What is your favourite movie genre? (yes/no)");
-            movieGenre = Console.ReadLine();
-            if (movies = "no")
+                Console.WriteLine("Do you like movies?");
+                movies = Console.ReadLine();
+                if (movies = "no")
             {
                 Console.WriteLine("Maybe the next section will be of more interest.");
             }
             else
             {
-                Console.WriteLine("That's great!")
+                    Console.WriteLine("What is your favourite movie of 2019?");
+                    movieFavourite = Console.ReadLine();
+                    if (movieFavourite == "Avengers") 
+                    {
+                        Console.WriteLine("Iron man dies.");
+                        Console.ReadLine();
+                    }
+                    if (movieFavourite == "The Emoji Movie")
+                    {
+                        Console.WriteLine("Just get out.");
+                        Console.ReadLine();
+                    }
+
+
+                    Console.WriteLine("What is your favourite movie genre?");
+                    movieGenre = Console.ReadLine();
+                    if (movieGenre == "comedy")
+                    {
+                        Console.WriteLine("So you like a good laugh, good choice.");
+                        Console.ReadLine();
+                    }
+                    if (movieGenre == "anime")
+                    {
+                        Console.WriteLine("Ah, I see you're a man/woman of culture.");
+                        Console.WriteLine();
+                    }
+
+                    Console.WriteLine("What is your least favourite movie?");
+                    movieDislike = Console.ReadLine();
+                    if (movieDislike == "The Emoji Movie")
+                    {
+                        Console.WriteLine("Pretty trash bro, don't watch it.");
+                        Console.ReadLine();
+                    }
+
+
+
+                    Console.WriteLine($"So, your favourite movie of 2019 is {movieFavourite}.");
+                    Console.WriteLine($"So, your favourite movie genre is {movieGenre}.");
+                    Console.WriteLine($"So, your least favourite movie is {movieDislike}.");
             }
+
 
 
             //Keegan's Questions
