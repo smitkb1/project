@@ -94,6 +94,26 @@ namespace Question_and_Answer
 
 
 
+
+
+            ////Anthony's Questions
+            //string gender, age, number;
+            //int favourite
+            //Console.WriteLine("Are you male or Female?");
+            //Console.ReadLine();
+            //Console.WriteLine("How old are you?");
+            //Console.ReadLine();
+            //Console.WriteLine("Pick your Favourite?");
+            //Console.WriteLine("1 - Sport");
+            //Console.WriteLine("2 - Movies");
+            //Console.WriteLine("3 - Music");
+            //number = Console.ReadLine();
+            //favourite = Convert.ToInt32(number);
+
+
+            //}
+        
+
             ////Anthony's Questions
             //string gender, age, number;
             //int favourite;
@@ -109,8 +129,14 @@ namespace Question_and_Answer
             //number = Console.ReadLine();
             //favourite = Convert.ToInt32(number);
 
-            //}
-        }
 
+
+
+
+
+
+
+
+        }
     }
 }
