@@ -11,6 +11,7 @@ namespace Question_and_Answer
         static void Main()
         {
 
+<<<<<<< HEAD
             
             
 
@@ -79,6 +80,40 @@ namespace Question_and_Answer
             }
             
 
+=======
+            { // Bens Questions
+                string sports, like, fav;
+                Console.WriteLine("Do you like Sport");
+                sports = Console.ReadLine();
+
+                Console.WriteLine("Who's your favourite Team?");
+                fav = Console.ReadLine();
+                if (sports = "No")
+                {
+                    Console.WriteLine("Sorry you are not wanted in this section");
+                }
+                else (sports = "Yes")
+            Console.WriteLine("What kind of Sport do you like?");
+                like = Console.ReadLine();
+
+
+                //Keegan's Questions
+                string musicFan, genre;
+                Console.WriteLine("Are you a fan of music?");
+                musicFan = Console.ReadLine();
+                if (musicFan == "Yes")
+                {
+                    Console.WriteLine("What's your favourite genre of music?");
+                    genre = Console.ReadLine();
+                    switch (genre)
+                    {
+                        case rock:
+                            like = Console.ReadLine();
+
+                    }
+                }
+
+>>>>>>> 3ae85be73a760a644ee1b21dd02a5d448d201556
 
 
             // Cody's Question
@@ -98,14 +133,6 @@ namespace Question_and_Answer
             }
 
 
-            //Keegan's Questions
-            string temp;
-            Console.WriteLine("Do you watch Game of Thrones?");
-            Console.ReadLine();
-            Console.WriteLine("Nerd?");
-            Console.ReadLine();
-            Console.WriteLine("Are you a gamer?");
-            Console.ReadLine();
 
 
             //Anthony's Questions
@@ -123,14 +150,8 @@ namespace Question_and_Answer
             number = Console.ReadLine();
             favourite = Convert.ToInt32(number);
 
-
-
-
-
-
-
-
-
+            }
         }
+
     }
 }
