@@ -11,29 +11,84 @@ namespace Question_and_Answer
         static void Main()
         {
 
-            { // Bens Questions
-            string sports, like, fav;
-            Console.WriteLine("Do you like Sport");
-            sports = Console.ReadLine();
             
-            Console.WriteLine("Who's your favourite Team?");
-            fav = Console.ReadLine();
-            if (sports = "No")
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            
+            
+            
+            // Bens Questions
+            public static void sports()
+            {
+
+
+
+                string sports, like, fav, player;
+                Console.WriteLine("Do you like Sport");
+                sports = Console.ReadLine();
+                if (sports == "No")
                 {
                     Console.WriteLine("Sorry you are not wanted in this section");
                 }
-            else  (sports = "Yes")
-            Console.WriteLine("What kind of Sport do you like?");
-            like = Console.ReadLine();
+                else
+                {
+                    Console.WriteLine("What kind of Sport do you like?");
+                    like = Console.ReadLine();
+                    if (like == "Basketball")
+                    {
+                        Console.WriteLine("Better not be a Warriors fan");
+                        Console.ReadLine();
+                    }
+                    Console.WriteLine($"Who's your favourite {like} Team?");
+                    fav = Console.ReadLine();
+                    Console.WriteLine($"Who's your favourtie player from {fav}");
+                    player = Console.ReadLine();
+                }
+            }
+            
 
 
-
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
 >>>>>>> e9c942b4572284eb297e395aefbbaeb3427efbbc
                 // Cody's Question
                 private static void movies()
+=======
+>>>>>>> 2ec84ff21cfedd21701e9d7de4fb2031d2dede95
 
                 Console.WriteLine("Do you like movies?");
                 movies = Console.ReadLine();
