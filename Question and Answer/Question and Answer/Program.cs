@@ -189,7 +189,11 @@ namespace Question_and_Answer
                 fav = Console.ReadLine();
                 Console.WriteLine($"Who's your favourite player from {fav}");
                 player = Console.ReadLine();
+
+              Console.WriteLine($"So you're telling me that the {fav} are your favourite team and from the {fav} {player} is your favourite player");
+                Console.ReadLine();
             }
+            
         }
     }
 }
