@@ -11,7 +11,7 @@ namespace Question_and_Answer
         public static void music()
         {
             //Keegans Question
-            string musicFan, genre, favArtist;
+            string musicFan, genre, favArtist, favSong;
             Console.WriteLine("Are you a fan of music?");
             musicFan = Console.ReadLine();
             if (musicFan == "Yes")
@@ -31,7 +31,8 @@ namespace Question_and_Answer
                         favArtist = Console.ReadLine();
                         break;
 
-                    case "Hip-Hop":
+                    case "Rap" +
+                    "":
                         Console.WriteLine($"Who's your favourite {genre} artist?");
                         favArtist = Console.ReadLine();
                         break;
@@ -42,13 +43,20 @@ namespace Question_and_Answer
                         break;
 
                     default:
-                        Console.WriteLine($"Interesting, I've never heard of {genre} before! Who's your favourite {genre} artist?");
+                        Console.WriteLine($"Interesting, I've never heard of {genre} before. Who's your favourite {genre} artist?");
                         favArtist = Console.ReadLine();
                         break;
                 }
-
+                Console.WriteLine($"What's your favourite {genre} song?");
+                favSong = Console.ReadLine();
+                Console.WriteLine($"\nYour favourite genre is {genre}\nYour favourite {genre} artist is {favArtist}\nYour favourite {genre} song is {favSong}");
+                Console.ReadLine();
             }
-
+            else
+            {
+                Console.WriteLine("If you don't like music then why did you select it as your favourite?");
+                Console.ReadLine();
+            }
         }
 
 
@@ -74,15 +82,15 @@ namespace Question_and_Answer
 
             switch (favourite)
             {
-                case '1':
+                case 1:
                     sports();
                     break;
 
-                case '2':
+                case 2:
                     movies();
                     break;
 
-                case '3':
+                case 3:
                     music();
                     break;
 
@@ -132,7 +140,7 @@ namespace Question_and_Answer
                 }
                 if (movieGenre == "anime")
                 {
-                    Console.WriteLine("Ah, I see you're a man/woman of culture.");
+                    Console.WriteLine("Ah, I see you're a person of culture.");
                     Console.WriteLine();
                 }
 
@@ -179,7 +187,7 @@ namespace Question_and_Answer
                 }
                 Console.WriteLine($"Who's your favourite {like} Team?");
                 fav = Console.ReadLine();
-                Console.WriteLine($"Who's your favourtie player from {fav}");
+                Console.WriteLine($"Who's your favourite player from {fav}");
                 player = Console.ReadLine();
             }
         }
